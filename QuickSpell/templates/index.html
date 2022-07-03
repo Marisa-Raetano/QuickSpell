@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src = "{{url_for('static', filename='script.js')}}"></script>
+    <title>QuickSpell</title>
+
+   <style>
+    .menu_bar {
+
+            background-color:black;
+            height: 80px;
+            width 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+    }
+
+    .brand {
+
+            color: #e0d7ff;
+            font-size: 37px;
+
+    }
+    .brand span {
+
+            color: #faffc7;
+    }
+
+
+    .menu_bar ul {
+
+            list-style:none;
+            display:flex;
+    }
+
+
+    .menu_bar ul li {
+            padding: 10px 30px;
+            position: relative;
+    }
+
+    .menu_bar ul li a {
+
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+    }
+
+    .menu_bar ul li a:hover{
+
+            color: yellow;
+
+    }
+
+
+
+    .dropdown_menu {
+            display: none;
+    }
+
+
+    .menu_bar ul li:hover .dropdown_menu {
+
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: #ddd;
+    }
+
+    .dropdown_menu ul{
+
+            display: block;
+            margin: 10px;
+    }
+
+    .dropdown_menu ul li {
+
+            width: 150px;
+            padding 10px;
+
+    }
+
+    </style>
+
+</head>
+<body style="background-color:#CBC3E3;">
+</div>
+<div class="menu_bar">
+<ul>
+<li><a href="pick_elementary.html">Low Level Games</a></li>
+<li><a href="pick_middle.html">Middle Level Games</a></li>
+<li><a href="pick_high.html">High Level Games</a></li>
+ </ul>
+  </div>
+	<h1 style="text-align:center">Welcome to QuickSpell</h1>
+
+	<center><img src="{{url_for('static', filename='QuickSpell.png')}}" alt="centered image" height="600" width="600"> </center>
+
+
+</div>
+
+</body>
+</html>

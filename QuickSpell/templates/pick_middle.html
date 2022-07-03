@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src = "{{url_for('static', filename='script.js')}}"></script>
+    <title>QuickSpell</title>
+</head>
+<body style="background-color: #CBC3E3;">
+
+ <div class="images">
+      <a href ="middle_game_1.html">
+              <img src="{{url_for('static', filename='wordscramble.png')}}" alt="Word Scramble" width = "400" height = "400" border = "0">
+      <a href ="middle_game_2.html">
+              <img src="{{url_for('static', filename='DrangnDrop.png')}}" alt="Drag and Drop" width = "400" height = "400" border = "0">
+      <a href ="middle_game_3.html">
+              <img src="{{url_for('static', filename='10.jpg')}}" alt="Hangman" width = "400" height = "400" border = "0">
+  
+              </div>
+
+
+ <div class="navbar justify-content-center">
+        <a class="nav-link nav-link-ltr" href="index.html">Home</a>
+    </div>
+
+        <h1 style="text-align:center"> Welcome to Middle Level Games</h1>
+        <p style="text-align:center"> Please select one of the following games: </p>
+         <a class="nav-link nav-link-ltr" href="high_game_1.html">Word Scramble</a>
+         <a class="nav-link nav-link-ltr" href="high_game_2.html">Word Drag</a>
+         <a class="nav-link nav-link-ltr" href="high_game_3.html">Hang Man</a>
+
+</body>
+</html>

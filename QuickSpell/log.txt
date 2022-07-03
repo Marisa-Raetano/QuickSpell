@@ -1,0 +1,251 @@
+commit 40df1c2e828c850b378aaabd58d5d4552eb8ba93
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Sat Mar 19 17:49:50 2022 -0400
+
+    changes to hangman
+
+commit 0b268ff2285f7b9d1d22c512d4eacad3f2d00114
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Sat Mar 19 17:46:08 2022 -0400
+
+    fixes for hangman game all levels
+
+commit 586c642fa057007dfc7a328753a0b2fc2f794cc2
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 21:08:26 2022 -0400
+
+    fixed error
+
+commit d3c1861c5ef3171b3efa2088efb53c8c1331510b
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 20:32:36 2022 -0400
+
+    trying different stuff
+
+commit a5b827918a481409f5b36febe1ecf0fd367a3e49
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 20:27:14 2022 -0400
+
+    middle game 1 input fix
+
+commit b90c6dc48731e17baebaf897664451f6b831a73e
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 20:00:52 2022 -0400
+
+    errors
+
+commit 9f47ea97d4291c009bbd08834df7295eeec10d82
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 19:48:07 2022 -0400
+
+    hangman edits
+
+commit 95bd857ab95f2b71319925d9768a89bc5beb62be
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 19:31:48 2022 -0400
+
+    Fixing hangman
+
+commit 92af5eab16be559a09f948a75eee9e26d45cfb9e
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 19:26:49 2022 -0400
+
+    Middle game 3
+
+commit 621125c466746a7073018d11cee37023a024ed50
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 19:05:30 2022 -0400
+
+    Fixing Hangman
+
+commit 1abb5fcfc7ea55c3a7e1fe5edf222a7195005ada
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 19:00:15 2022 -0400
+
+    Fixed hangman in middle school.
+
+commit 29fee8375dbae6a77f99979c4546945ec191fe56
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Fri Mar 18 18:52:15 2022 -0400
+
+    Added code for Hangman to all game 3's.
+
+commit 4657ddb323741158dd5763164325535b18004517
+Merge: 2187ff6 ff7e4ef
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Fri Mar 18 10:45:04 2022 -0400
+
+    Add shadow image
+
+commit 2187ff66b8ecdca63a3ce2d472221efa14ca5c1a
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Fri Mar 18 10:17:25 2022 -0400
+
+    hgih school hangman
+
+commit ff7e4ef924b8f0685e89584a771bfb8a66d3a3ae
+Merge: 6ff9bc8 b580bd6
+Author: Ben Osborne <bosborneb@shannon.cs.longwood.edu>
+Date:   Fri Mar 18 09:57:47 2022 -0400
+
+    Merge branch 'master' of torvalds.cs.longwood.edu:QuickSpell
+
+commit 6ff9bc821f16aa465e271cde0796f7f2f499869a
+Author: Ben Osborne <bosborneb@shannon.cs.longwood.edu>
+Date:   Fri Mar 18 09:57:06 2022 -0400
+
+    GET Method for database
+
+commit d141fa8c47801b89f0bddf55eb2aba3fca0b7f97
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Thu Mar 17 20:50:49 2022 -0400
+
+    added hangman code to hgih school game 1
+
+commit b580bd62aca2ba27ddd6558503a8c4b1e54501ba
+Author: root <root@quickspell.cs.longwood.edu>
+Date:   Thu Mar 17 16:53:04 2022 +0000
+
+    Move files to dev/
+
+commit 97f5bbdeb4744597b8b12bdf5f2abb94fb6b90f9
+Merge: 27b23e1 3ff2a14
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Thu Mar 17 12:51:36 2022 -0400
+
+    Merge branch 'master' of torvalds.cs.longwood.edu:QuickSpell
+
+commit 27b23e18756c11a32ba391e9f9d81e826d59e506
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 19:07:09 2022 -0400
+
+    update
+
+commit 712c40801a4939c028e0b1b1b141bf97b5086c3a
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 18:59:37 2022 -0400
+
+    updated
+
+commit 803a010fc4e4a7cf1cd924b5bfa27f2300156ac3
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 18:58:54 2022 -0400
+
+    updated code
+
+commit 3ff2a148e073de83bf805ba73f7767860b87ec46
+Merge: 5e5c219 80a09ca
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 18:32:58 2022 -0400
+
+    Merge branch 'master' of torvalds.cs.longwood.edu:QuickSpell
+
+commit 5e5c2196425bc9cbaf5e88f24313d9fc1b8c0e64
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 18:32:01 2022 -0400
+
+    updated code
+
+commit a4d90c0931fc6d0d155bfdd0113f1729094fe42a
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 16 18:29:45 2022 -0400
+
+    updated code
+
+commit 80a09ca0d72d98efdf0b62f059b9c87e6f328dee
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Tue Mar 15 20:31:44 2022 -0400
+
+    .
+
+commit 96fd3255954bfabf79e41a638e2a2f61680554a4
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Mon Mar 14 18:27:18 2022 -0400
+
+    Fixed number correct
+
+commit c4e3fd5f987f1c4854c8023876f68ee41dfdce9c
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Mon Mar 14 18:18:16 2022 -0400
+
+    Added game 1 script middle school
+
+commit fe6add7f617bd6fc82be2d5b036d9481e15e6af8
+Merge: 0d561b4 2960b5b
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Mon Mar 14 18:13:58 2022 -0400
+
+    Merge branch 'master' of torvalds.cs.longwood.edu:QuickSpell
+
+commit 0d561b4be2b1847fa60a35f4c68cd49a8ea2d17e
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Mon Mar 14 18:11:32 2022 -0400
+
+    Added html for game 1
+
+commit 2960b5b36a986c700989b3e6d96812a2376c3e04
+Author: Ben Osborne <bosborneb@lovelace.cs.longwood.edu>
+Date:   Sun Mar 13 20:29:26 2022 -0400
+
+    Database and program to generate database values are added
+
+commit cce8373f7f3e99509dbf4aff9f3c9c99860e089b
+Merge: a9f67d0 bb8b884
+Author: Ben Osborne <bosborneb@lovelace.cs.longwood.edu>
+Date:   Sun Mar 13 17:47:38 2022 -0400
+
+    Merge branch 'master' of torvalds.cs.longwood.edu:QuickSpell
+
+commit a9f67d075834f7bc58b9b718dad3d3627f522f98
+Author: Ben Osborne <bosborneb@lovelace.cs.longwood.edu>
+Date:   Sun Mar 13 17:46:01 2022 -0400
+
+    Trying to pull
+
+commit bb8b884d68129ce467dedc0bbc496ac62a67b26d
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Thu Mar 3 14:23:01 2022 -0500
+
+    Added Script for middle school game timer.
+
+commit 0dd34f661be0755c3f2decf382da928eb1dd5bb6
+Author: Dashawn Meredith <dashawn.meredith@live.longwood.edu>
+Date:   Thu Mar 3 14:22:12 2022 -0500
+
+    Implemented HTML for a timer for middle school game 1
+
+commit e43d31ebdf0d4be8fcf38970af713e757806bf45
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Wed Mar 2 10:08:29 2022 -0500
+
+    added script.js file with code for creating and inserting inputted words into an array. choosing a random word is broken and always returns the first inserted word.
+
+commit 2a156444c57a15872b84b463fabdf3d005396f4f
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Thu Feb 24 19:02:40 2022 -0500
+
+    push
+
+commit 7df203f1e47bdd22fa096fe16deca35871a748fe
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Mon Feb 21 19:21:26 2022 -0500
+
+    Added option to pick grade level and pages for 3 different games for each grade.
+
+commit 69d22652b3a64635ad51ffc2d037e7dc42ee8c53
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Fri Feb 18 10:20:55 2022 -0500
+
+    updated html and css. added idea for game
+
+commit aee1419d147cbd6c8e4a0533b323c21e3b1e7e63
+Author: Ethan Heindl <ethan.heindl@live.longwood.edu>
+Date:   Tue Feb 15 19:48:10 2022 -0500
+
+    Files and code for index.html and style.css. Style can change. -Ethan
+
+commit a76d3983df33078111d40c799b9e1866ca6257b2
+Author: Marisa Raetano <raetama@amdahl.cs.longwood.edu>
+Date:   Fri Feb 11 10:58:45 2022 -0500
+
+    Initial Commit

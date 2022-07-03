@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src = "{{url_for('static', filename='script.js')}}"></script>
+    <title>QuickSpell</title>
+<style>
+    .menu_bar {
+
+            background-color:black;
+            height: 80px;
+            width 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+    }
+
+    .brand {
+
+            color: #e0d7ff;
+            font-size: 37px;
+
+    }
+    .brand span {
+
+            color: #faffc7;
+    }
+
+
+    .menu_bar ul {
+
+            list-style:none;
+            display:flex;
+    }
+
+
+    .menu_bar ul li {
+            padding: 10px 30px;
+            position: relative;
+    }
+
+    .menu_bar ul li a {
+
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+    }
+
+    .menu_bar ul li a:hover{
+
+            color: yellow;
+
+    }
+
+
+
+    .dropdown_menu {
+            display: none;
+    }
+
+
+    .menu_bar ul li:hover .dropdown_menu {
+
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: black;
+    }
+
+    .dropdown_menu ul{
+
+            display: block;
+            margin: 10px;
+    }
+
+    .dropdown_menu ul li {
+
+            width: 150px;
+            padding 10px;
+
+    }
+
+    </style>
+
+</head>
+ <body onload= "load_game()" style="background-color: #CBC3E3;">
+ <div class="menu_bar">
+          <h1 class="brand">Quick<span>Spell</span></h1>
+
+          <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li>
+                        <a href="#">Low Level Games <i class="fa fa-caret-down"></i> </a>
+
+                        <div class="dropdown_menu">
+                                <ul>
+
+                                        <li><a href="elementary_game_1.html">Word Scramble</a></li>
+                                        <li><a href="elementary_game_2.html">Word Drag</a></li>
+                                        <li><a href="elementary_game_3.html">Hang Man</a></li>
+
+
+                                </ul>
+
+
+
+                  </li>
+
+                  <li><a href="#">Middle Level Games <i class="fa fa-caret-down"</i></a>
+
+
+                        <div class="dropdown_menu">
+                                <ul>
+
+                                        <li><a href="middle_game_1.html">Word Scramble</a></li>
+                                        <li><a href="middle_game_2.html">Word Drag</a></li>
+                                        <li><a href="middle_game_3.html">Hang Man</a></li>
+
+                                </ul>
+
+
+                  </li>
+                  <li><a href="#">High Level Games <i class="fa fa-caret-down"</i></a>
+
+                          <div class="dropdown_menu">
+                                <ul>
+
+                                        <li><a href="high_game_1.html">Word Scramble</a></li>
+                                        <li><a href="high_game_2.html">Word Drag</a></li>
+                                        <li><a href="high_game_3.html">Hang Man</a></li>
+
+
+                                </ul>
+
+                  </li>
+          </ul>
+        </div>
+          <svg id="gallows" width=300px height=400px xmlns="http://www.w3.org/2000/svg">
+            <rect x=0 y=0 width=300px height=400px fill=white stroke=black />
+            <polyline points="75,380 75,280 225,280 225,380" fill=none stroke=black
+ stroke-width=2px />
+            <polyline points="150,280 150,20 80,20 80,50" fill=none stroke=black stroke-
+ width=2px />
+         </svg>
+       <div id="letters"><h2>Guessed Letters:</h2></div>
+       <div id="word">
+       <div id="contents"></div>
+       </div>
+
+</body>
+</html>

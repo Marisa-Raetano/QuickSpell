@@ -1,0 +1,211 @@
+svg, div {
+border: 1px solid blue;
+}
+
+#gallows{
+float: left;
+ border: 1px solid blue;
+}
+
+.buttons{
+
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* background-image: url("compooter.jpg"); */
+  }
+
+
+
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1700ad;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+
+  .nav-link:hover {
+    opacity: 1;
+  }
+
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #1700ad;
+  }
+
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+
+  .nav-link-fade-up::before {
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+  }
+
+  .nav-link-fade-up:hover::before {
+    bottom: 10px;
+    opacity: 1;
+  }
+
+  .nav-link-grow-up::before {
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .nav-link-grow-up:hover::before {
+    height: 5px;
+  }
+
+#gallows {
+ float: left;
+}
+
+#letters {
+ float: right;
+ width: 4in;
+ min-height: 3in;
+ display: inline-block;
+ color: green;
+ border: green 4px solid;
+
+ text-align: center;
+ font-weight: bold;
+}
+
+
+#word {
+ width: 80%;
+ min-height: 3in;
+ clear: left;
+#word {
+ width: 80%;
+ min-height: 3in;
+
+clear: left;
+ position: absolute;
+ margin: 2em auto;
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%, 0%);
+}
+
+#contents {
+ display: inline-block;
+ margin: 1em auto;
+ position: relative;
+ bottom: 0px;
+ left: 50%;
+ transform: translate(-50%, 100%);
+}
+
+.guessedletter {
+ font-weight: bold;
+ font-size: 48pt;
+ font-family: monospace;
+ display: inline-block;
+ position: absolute;
+}
+.menu_bar {
+
+            background-color:black;
+            height: 80px;
+            width 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5%;
+    }
+
+    .brand {
+
+            color: #e0d7ff;
+            font-size: 37px;
+
+    }
+    .brand span {
+
+            color: #faffc7;
+    }
+
+
+    .menu_bar ul {
+
+            list-style:none;
+            display:flex;
+    }
+
+
+    .menu_bar ul li {
+            padding: 10px 30px;
+            position: relative;
+    }
+
+    .menu_bar ul li a {
+
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+    }
+
+    .menu_bar ul li a:hover{
+
+            color: yellow;
+
+    }
+
+
+
+    .dropdown_menu {
+            display: none;
+    }
+
+
+    .menu_bar ul li:hover .dropdown_menu {
+
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: #ddd;
+    }
+
+    .dropdown_menu ul{
+
+            display: block;
+            margin: 10px;
+    }
+
+    .dropdown_menu ul li {
+
+            width: 150px;
+            padding 10px;
+
+    }
+
+
+

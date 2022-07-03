@@ -1,0 +1,280 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* background-image: url("compooter.jpg"); */
+  }
+  
+  /*
+  .navbar {
+    border-bottom: 1px solid #BBBBBB;
+  }
+  */
+
+/* #randomWord{
+  color: #1700ad;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin: 0px 15px;
+  display: inline-block;
+  position: relative; 
+  opacity: 0.75;
+  height: 50px;
+  width: 50px;
+} */
+
+
+.menu_bar {
+
+  background-color:black;
+  height: 80px;
+  width 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.brand {
+
+  color: #e0d7ff;
+  font-size: 37px;
+}
+
+.brand span {
+ 
+  color: #faffc7;
+}
+
+.menu_bar ul {
+
+  list-style:none;
+  display:flex;
+}
+
+
+.menu_bar ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+
+.menu_bar ul li a {
+
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu_bar ul li a:hover{
+
+  color: yellow;
+}
+
+
+
+.dropdown_menu {
+  display: none;
+}
+
+
+.menu_bar ul li:hover .dropdown_menu {
+
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ddd;
+}
+
+.dropdown_menu ul{
+
+  display: block;
+  margin: 10px;
+}
+
+.dropdown_menu ul li {
+
+  width: 150px;
+  padding 10px;
+}
+
+.buttons{
+
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    transform : translate(-50%, -50%);
+}
+
+ h2.pick_grade_level{
+    color: #1700ad;
+    font-weight: bold;
+    padding: 140px 0px;
+    /* margin: 0px 400px; */
+    text-align: center;
+
+  }
+
+  .random_word{
+    color: #1700ad;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 25px 0px;
+    margin: 0px 50px;
+    /* display: inline-block; */
+    /* position: relative;  */
+    opacity: 0.75;
+    height: 50px;
+    width: 100px;
+  }
+
+  .word_input_box{
+    color: #1700ad;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 25px 0px;
+    margin: 0px 50px;
+    display: inline-bloc style="text-align:center"k;
+    position: relative; 
+    opacity: 0.75;
+    height: 50px;
+    width: 100px;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1700ad;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative; 
+    opacity: 0.75;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #1700ad;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+  
+  .nav-link-fade-up::before {
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+  }
+  
+  .nav-link-fade-up:hover::before {
+    bottom: 10px;
+    opacity: 1;
+  }
+  
+  .nav-link-grow-up::before {
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+  }
+  
+  .nav-link-grow-up:hover::before {
+    height: 5px;
+  }
+
+
+  /*hangman*/
+
+  #gallows {
+    float: left;
+    border: none !important;
+}
+
+#post{
+    float: left;
+    position: absolute;
+    border: none !important;
+    top: 45px;
+    bottom: 0px;
+}
+
+#letters {
+      float: right;
+      width: 4in;
+      min-height: 3.79in;
+      display: inline-block;
+      color:black;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+#word {
+    width: 80%;
+    min-height: 3in;
+    clear: left;
+    position: absolute;
+    margin: 2em auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* help from Marmorstein filling background image */
+#background img{
+    top: 0px;
+    left: 0;
+    z-index: -20; 
+    position: absolute;
+}
+
+#contents {
+    display: inline-block;
+    margin: 1em auto;
+    position: relative;
+    bottom: 0px;
+    left: 75%;
+    transform: translate(-70%, 700%);
+}
+
+.guessedletter {
+    font-weight: bold;
+    font-size: 48pt;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: absolute;
+    /* reply from Roko C. Buljan https://stackoverflow.com/questions/26860884/how-to-remove-the-border-line-in-a-div-css */
+    border: none !important;
+}
+<style>
+.images{
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  flex: 33.33%;
+  padding: 5px;
+  align: center;
+}
+
+
+
+
